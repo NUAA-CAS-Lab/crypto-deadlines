@@ -1,4 +1,6 @@
 ---
+- name: Cryptographic Engineering
+  sub: CE
 - name: Machine Learning
   sub: ML
 - name: Computer Vision

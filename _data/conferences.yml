@@ -1,5 +1,16 @@
 ---
 
+- title: DAC
+  hindex: -1
+  year: 2021
+  id: DAC21
+  link: https://www.dac.com
+  deadline: '2020-11-23 17:00:00'
+  timezone: UTC-8
+  date: July 11-15, 2021
+  place: San Francisco
+  sub: CE
+
 - title: CHIL
   hindex: -1
   year: 2021
