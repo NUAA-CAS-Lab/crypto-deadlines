@@ -21,3 +21,25 @@
   date: July 11-15, 2021
   place: San Francisco
   sub: CE
+
+- title: CT-RSA
+  hindex: -1
+  year: 2021
+  id: CT-RSA21
+  link: https://sites.google.com/site/ctrsa2021/
+  deadline: '2020-12-01 23:59:59'
+  timezone: UTC-12
+  date: May 17-21, 2021
+  place: San Francisco
+  sub: CE
+
+- title: DATE
+  hindex: -1
+  year: 2021
+  id: DATE21
+  link: https://www.date-conference.com
+  deadline: '2020-12-14 23:59:59'
+  timezone: UTC-12
+  date: February 1-5, 2021
+  place: Online
+  sub: CE
