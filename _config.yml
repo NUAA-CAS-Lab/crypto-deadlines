@@ -1,15 +1,14 @@
-title: AI Conference Deadlines # (Maintained by @abhshkdz)
-# email: abhshkdz@vt.edu
-description: Countdowns to top CV/NLP/ML/Robotics/AI conference deadlines
-author: Abhishek Das
+title: Cryptography Conference Deadlines
+description: Countdowns to top cryptography conference deadlines
+author: NUAA CAS Lab
 
-domain: "aideadlin.es"
-baseurl: ""
+domain: "nuaa-cas-lab.github.io"
+baseurl: "/crypto-deadlines"
 
-twitter_username: abhshkdz
-twitter_hashtag: machinelearning
-github_username: abhshkdz
-github_repo: ai-deadlines
+# twitter_username: D4rkYg
+twitter_hashtag: crypto
+github_username: NUAA-CAS-Lab
+github_repo: crypto-deadlines
 
 markdown: kramdown
 ga_id: UA-36274081-2

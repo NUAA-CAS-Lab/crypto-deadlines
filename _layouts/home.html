@@ -63,8 +63,8 @@
               </div>
               <div class="meta col-xs-12">
                 You can optionally export all deadlines to
-                <a href="https://calendar.google.com/calendar/r?cid={{ site.url }}/ai-deadlines.ics">Google Calendar</a> or
-                <a href="/ai-deadlines.ics">.ics</a>.
+                <a href="https://calendar.google.com/calendar/r?cid={{ site.url }}/crypto-deadlines.ics">Google Calendar</a> or
+                <a href="/crypto-deadlines.ics">.ics</a>.
               </div>
             </div>
         </div>
@@ -124,8 +124,7 @@
         <footer>
           <div class="row">
             <div class="col-xs-12 col-sm-6">
-              <a href="/">{{ site.domain }}</a> is maintained by <a href="https://twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>.<br>
-              If you find it useful, consider buying him <a target="_blank" href="https://read.gift/u/abhshkdz">a book</a> or <a title="_blank" href="https://www.buymeacoffee.com/abhshkdz">coffee</a>.
+              <a href="{{ "/" | prepend:site.baseurl }}">{{ site.domain }}</a> is maintained by <a href="http://asclab.nuaa.edu.cn" target="_blank">NUAA CAS Lab</a>.
             </div>
           </div>
         </footer>
@@ -271,7 +270,7 @@
           }
         }
         store.set('{{ site.domain }}', subs);
-        window.history.pushState('', '', '/?sub=' + subs.join());
+        window.history.pushState('', '', '{{ "/?sub=" | prepend:site.baseurl }}' + subs.join());
 
         // Event handler on checkbox change
         $('form :checkbox').change(function(e) {
@@ -295,7 +294,7 @@
           }
           console.log(subs);
           store.set('{{ site.domain }}', subs);
-          window.history.pushState('', '', '/?sub=' + subs.join());
+          window.history.pushState('', '', '{{ "/?sub=" | prepend:site.baseurl }}' + subs.join());
         });
 
         // Event handler on sub click
@@ -312,7 +311,7 @@
           subs = [csub];
           console.log(subs);
           store.set('{{ site.domain }}', subs);
-          window.history.pushState('', '', '/?sub=' + subs.join());
+          window.history.pushState('', '', '{{ "/?sub=" | prepend:site.baseurl }}' + subs.join());
         });
     });
     <!-- Google analytics -->
