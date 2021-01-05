@@ -1,20 +1,31 @@
 ---
 
-- title: TCHES
+- title: CHES
   hindex: -1
   year: 2021
-  id: tches2021-1
+  id: tches2021-4
   link: https://ches.iacr.org/2021/
   deadline: '2021-04-15 23:59:59'
-  timezone: UTC-8
-  date: April 15, 2021
+  timezone: UTC-12
+  date: September 12-15, 2021
   place: Beijing, China
+  sub: CE
+
+- title: USENIX Security
+  hindex: -1
+  year: 2021
+  id: usenixsecurity21
+  link: https://www.usenix.org/conference/usenixsecurity21
+  deadline: '2021-02-04 23:59:59'
+  timezone: UTC-12
+  date: August 11-13, 2021
+  place: Vancouver, B.C., Canada
   sub: CE
 
 - title: DAC
   hindex: -1
   year: 2021
-  id: DAC21
+  id: dac21
   link: https://www.dac.com
   deadline: '2020-11-23 16:59:59'
   timezone: UTC-8
@@ -25,7 +36,7 @@
 - title: CT-RSA
   hindex: -1
   year: 2021
-  id: CT-RSA21
+  id: ct-rsa21
   link: https://sites.google.com/site/ctrsa2021/
   deadline: '2020-12-01 23:59:59'
   timezone: UTC-12
@@ -33,10 +44,21 @@
   place: San Francisco
   sub: CE
 
+- title: Eurocrypt
+  hindex: -1
+  year: 2021
+  id: eurocrypt21
+  link: https://eurocrypt.iacr.org/2021/
+  deadline: '2020-10-08 20:59:59'
+  timezone: UTC
+  date: May 2-6, 2021
+  place: Zagreb, Croatia
+  sub: CE
+
 - title: DATE
   hindex: -1
   year: 2021
-  id: DATE21
+  id: date21
   link: https://www.date-conference.com
   deadline: '2020-12-14 23:59:59'
   timezone: UTC-12
