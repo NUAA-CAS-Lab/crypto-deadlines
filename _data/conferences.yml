@@ -3,7 +3,7 @@
 - title: TCHES
   hindex: -1
   year: 2021
-  id: tches2021
+  id: tches2021-1
   link: https://ches.iacr.org/2021/
   deadline: '2021-04-15 23:59:59'
   timezone: UTC-8
@@ -16,7 +16,7 @@
   year: 2021
   id: DAC21
   link: https://www.dac.com
-  deadline: '2020-11-23 17:00:00'
+  deadline: '2020-11-23 16:59:59'
   timezone: UTC-8
   date: July 11-15, 2021
   place: San Francisco
