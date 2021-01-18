@@ -1,5 +1,16 @@
 ---
 
+- title: CCS
+  hindex: -1
+  year: 2021
+  id: ccs2021
+  link: https://www.sigsac.org/ccs/CCS2021/
+  deadline: '2021-01-20 23:59:59'
+  timezone: UTC-12
+  date: November 14-19, 2021
+  place: Seoul, South Korea
+  sub: CE
+
 - title: CHES
   hindex: -1
   year: 2021
