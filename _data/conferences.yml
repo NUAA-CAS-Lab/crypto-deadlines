@@ -1,18 +1,145 @@
 ---
 
+- title: S&P
+  year: 2022
+  id: sp2022
+  date: "May 22 – 26 2022"
+  description: IEEE Symposium on Security and Privacy
+  link: https://www.ieee-security.org/TC/SP2022/
+  comment: Three deadlines
+  deadline:
+    - "2021-04-15 23:59"
+    # - "2021-08-19 23:59"
+    # - "2021-12-02 23:59"
+  place: San Francisco, California, USA
+  sub: [TC, AC]
+
+- title: Euro S&P
+  description: IEEE European Symposium on Security and Privacy
+  year: 2021
+  id: eurosp2021
+  link: https://www.ieee-security.org/TC/EuroSP2021/
+  deadline: "2020-11-05 23:59"
+  date: "September 7 - 11"
+  place: Vienna, Austria
+  sub: [TC, AC]
+
+- title: AsiaCCS
+  description: ACM Asia Conference on Computer and Communications Security
+  year: 2021
+  id: asiaccs2021
+  link: https://asiaccs2021.comp.polyu.edu.hk
+  deadline:
+    - "2020-08-21 23:59"
+    # - "2020-12-11 23:59"
+  comment: 2 review cycles
+  date: "June 7- June 11"
+  place: Hong Kong, China
+  sub: [TC, AC]
+  timezone: "Etc/GMT+12"
+
+- title: NDSS
+  description: ISOC Network and Distributed System Security Symposium
+  year: 2021
+  id: ndss2021
+  link: https://www.ndss-symposium.org/ndss-2021/
+  comment: 2 review cycles
+  deadline:
+    - "2020-04-30 23:59"
+    # - "2020-07-31 23:59"
+  date: February 21-24
+  place: San Diego, CA, USA
+  sub: [TC, AC]
+
+- title: ESORICS
+  description: European Symposium on Research in Computer Security
+  year: 2021
+  id: esorics2021
+  link: https://esorics2021.athene-center.de/call-for-papers.php
+  deadline: "2021-05-12 23:59"
+  timezone: Etc/GMT-1
+  comment: Title and abstract deadline on May 5
+  date: October 4-8
+  place: Darmstadt, Germany
+  sub: [TC, AC]
+
+- title: CANS
+  description: International Conference on Cryptology and Network Security
+  year: 2021
+  id: cans2021
+  link: https://cans2021.at/call-for-papers/
+  deadline: "2021-06-01 23:59"
+  timezone: Etc/UTC
+  date: December 13-15
+  place: Vienna, Austria
+  sub: [TC, AC]
+
+- title: FC
+  description: Financial Cryptography and Data Security
+  year: 2021
+  id: fc2021
+  link: https://fc21.ifca.ai/index.php
+  deadline: "2020-09-17 23:59"
+  date: March 1-5
+  place: Virtual
+  sub: [TC, AC]
+
+- title: Crypto
+  description: International Cryptology Conference
+  year: 2020
+  id: crypto2020
+  link: https://crypto.iacr.org/2020
+  deadline: "2020-02-11 16:00"
+  timezone: Etc/GMT+5
+  date: August 16-20
+  place: Santa Barbara, CA, USA
+  sub: [TC, AC]
+
+- title: Asiacrypt
+  description: International Conference on the Theory and Application of Cryptology and Information Security
+  year: 2019
+  id: asiacrypt2019
+  link: https://asiacrypt.iacr.org/2019
+  deadline: "2019-05-14 05:00"
+  timezone: Etc/UTC
+  date: December 8-12
+  place: Kobe, Japan
+  sub: [TC, AC]
+
+- title: TCC
+  description: Theory of Cryptography Conference
+  year: 2020
+  id: tcc2020
+  link: https://www.iacr.org/workshops/tcc
+  deadline: "2020-05-26 23:59"
+  date: "November 16-19"
+  place: Durham, NC, USA
+  sub: TC
+
+- title: PKC
+  description: International Conference on Practice and Theory of Public Key Cryptography
+  year: 2020
+  id: pkc2020
+  link: https://pkc.iacr.org/2020/
+  deadline: "2019-11-02 09:59"
+  timezone: Etc/UTC
+  date: May 4-7
+  place: Edinburgh, Scotland, UK
+  sub: [TC, AC]
+
 - title: CCS
-  hindex: -1
   year: 2021
   id: ccs2021
   link: https://www.sigsac.org/ccs/CCS2021/
-  deadline: '2021-01-20 23:59:59'
+  deadline:
+    - '2021-01-20 23:59:59'
+    # - "2021-05-06 23:59:59"
   timezone: UTC-12
   date: November 14-19, 2021
   place: Seoul, South Korea
-  sub: CE
+  sub: [TC, AC]
 
 - title: CHES
-  hindex: -1
   year: 2021
   id: tches2021-4
   link: https://ches.iacr.org/2021/
@@ -23,7 +150,6 @@
   sub: CE
 
 - title: CHES
-  hindex: -1
   year: 2021
   id: tches2021-3
   link: https://ches.iacr.org/2021/
@@ -34,7 +160,6 @@
   sub: CE
 
 - title: CHES
-  hindex: -1
   year: 2021
   id: tches2021-2
   link: https://ches.iacr.org/2021/
@@ -45,7 +170,6 @@
   sub: CE
 
 - title: CHES
-  hindex: -1
   year: 2021
   id: tches2021-1
   link: https://ches.iacr.org/2021/
@@ -56,7 +180,6 @@
   sub: CE
 
 - title: USENIX Security
-  hindex: -1
   year: 2021
   id: usenixsecurity21
   link: https://www.usenix.org/conference/usenixsecurity21
@@ -64,10 +187,9 @@
   timezone: UTC-12
   date: August 11-13, 2021
   place: Vancouver, B.C., Canada
-  sub: CE
+  sub: AC
 
 - title: DAC
-  hindex: -1
   year: 2021
   id: dac21
   link: https://www.dac.com
@@ -78,7 +200,6 @@
   sub: CE
 
 - title: CT-RSA
-  hindex: -1
   year: 2021
   id: ct-rsa21
   link: https://sites.google.com/site/ctrsa2021/
@@ -89,7 +210,6 @@
   sub: CE
 
 - title: Eurocrypt
-  hindex: -1
   year: 2021
   id: eurocrypt21
   link: https://eurocrypt.iacr.org/2021/
@@ -97,10 +217,9 @@
   timezone: UTC
   date: May 2-6, 2021
   place: Zagreb, Croatia
-  sub: Crypto
+  sub: TC
 
 - title: DATE
-  hindex: -1
   year: 2021
   id: date21
   link: https://www.date-conference.com

@@ -1,5 +1,7 @@
 ---
 - name: Cryptographic Engineering
   sub: CE
-- name: Cryptography
-  sub: Crypto
+- name: Theory of Cryptography
+  sub: TC
+- name: Applied Cryptography
+  sub: AC
